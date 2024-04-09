@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background: #F3F3F3;
+}
+img{
+  position: absolute;
+  width: 70px;
+  border-radius: 50%;
+  margin-left: 70px;
+  margin-top: -8px;
+}
+p{
+  text-align: center;
+  width: 100%;
+  height: 40px;
+}
+.fname{
+  font-size: 25px;
+  font-weight: bold;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  color: #FFFFFF;
+  background: rgba(0, 100, 255,0.9);
+}
+.titl{
+  background: rgba(0, 50, 50, 0.5);
+  height: 40px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+form{
+  margin-top: 20px;
+  margin-left: 45px;
+  width: 80%;
+  height: 20rem;
+  padding: 20px;
+  background: rgba(0, 0, 0,0.1);
+  border-radius: 1rem;
+}
+input,button,textarea{
+  width: 100%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  margin-bottom: 20px;
+  border: 1px solid #1B40B5;
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+}
+textarea::placeholder{
+  padding-top: 10px;
+}
+textarea{
+  height: 70px;
+}
+button{
+  background-color: rgba(0, 100, 255,0.9);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.last{
+  margin-top: 30px;
+}
+.last >a{
+  text-decoration: underline;
+  color: #696969;
+  margin-left: 6rem;
+}
+.last >p{
+  width: 100%;
+  height: 20px;
+  margin-top: 200px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0,0.1)
+}
